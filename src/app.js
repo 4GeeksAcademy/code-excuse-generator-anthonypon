@@ -22,9 +22,9 @@ let excuseGenerator = () => {
   ];
 
   let index1 = Math.floor(Math.random() * who.length);
-  let index2 = Math.floor(Math.random() * who.length);
-  let index3 = Math.floor(Math.random() * who.length);
-  let index4 = Math.floor(Math.random() * who.length);
+  let index2 = Math.floor(Math.random() * action.length);
+  let index3 = Math.floor(Math.random() * what.length);
+  let index4 = Math.floor(Math.random() * when.length);
 
   return (
     who[index1] + " " + action[index2] + " " + what[index3] + " " + when[index4]
