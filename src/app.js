@@ -30,4 +30,3 @@ let excuseGenerator = () => {
     who[index1] + " " + action[index2] + " " + what[index3] + " " + when[index4]
   );
 };
-document.querySelector("#excuse").innerHTML = excuseGenerator;
